@@ -1,0 +1,125 @@
+/* {"TekRig";} Vinuwarthan email: tekrig.vinu@gmail.com  whatsapp: +94781026265 */
+/* Reset */
+/* #161A30
+#31304D
+#B6BBC4
+#F0ECE5 */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+	
+}
+
+body {
+  font-family:  Arial, Helvetica, sans-serif;
+	height: 100vh;
+	background-color: #161A30;
+	text-align: center;
+}
+
+h1{
+
+	font-size: 5rem;
+	color: #B6BBC4;
+}
+
+h2{
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	color: #F0ECE5;
+}
+
+h1, h2, .slidingVertical, .contact_img{
+	display: flex;	
+	justify-content: center;
+}
+
+p{
+	padding-top: 4rem;
+	padding-bottom: 2rem;	
+	color: #F0ECE5;
+}
+
+img{width: 3rem;
+	margin: 1rem;}
+
+
+
+/* Rolling text css start here */
+.sentence{
+	margin-top: 5px;
+	padding-top: 25px;
+  color: #222;
+  font-size: 30px;
+  text-align: left;
+}
+
+.slidingVertical span{
+	animation: topToBottom 15s linear infinite 0s;
+	-ms-animation: topToBottom 15s linear infinite 0s;
+	-webkit-animation: topToBottom 15s linear infinite 0s;
+	color: #00abe9;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.slidingVertical span:nth-child(2){
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+}
+.slidingVertical span:nth-child(3){
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+}
+.slidingVertical span:nth-child(4){
+	animation-delay: 7.5s;
+	-ms-animation-delay: 7.5s;
+	-webkit-animation-delay: 7.5s;
+}
+.slidingVertical span:nth-child(5) {
+	animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+}
+
+.slidingVertical span:nth-child(6) {
+	animation-delay: 12.5s;
+	-ms-animation-delay: 12.5s;
+	-webkit-animation-delay: 12.5s;
+}
+
+/*topToBottom Animation*/
+@-moz-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: translateY(-50px); }
+	10% { opacity: 1; -moz-transform: translateY(0px); }
+	25% { opacity: 1; -moz-transform: translateY(0px); }
+	30% { opacity: 0; -moz-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-webkit-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform: translateY(-50px); }
+	10% { opacity: 1; -webkit-transform: translateY(0px); }
+	25% { opacity: 1; -webkit-transform: translateY(0px); }
+	30% { opacity: 0; -webkit-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: translateY(-50px); }
+	10% { opacity: 1; -ms-transform: translateY(0px); }
+	25% { opacity: 1; -ms-transform: translateY(0px); }
+	30% { opacity: 0; -ms-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/* Rolling text css end here */

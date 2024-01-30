@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- head tag start -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TekRig | Welcome</title>
+  <meta name="description" content=" I Design Website and Webapp For You, Please Contact Me!">
+  <meta name="author" content="TekRig Vinuwarthan">
+  <meta name="keywords" content="TekRig, Vinuwarthan, Vinu, Web development, Sri Lanka, Lanka, Webapp, Full stack web development">
+  <meta name="robots" content="index, follow">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+	
+}
+
+body {
+  font-family:  Arial, Helvetica, sans-serif;
+	height: 100vh;
+	background-color: #161A30;
+	text-align: center;
+}
+
+h1{
+
+	font-size: 5rem;
+	color: #B6BBC4;
+}
+
+h2{
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	color: #F0ECE5;
+}
+
+h1, h2, .slidingVertical, .contact_img{
+	display: flex;	
+	justify-content: center;
+}
+
+p{
+	padding-top: 4rem;
+	padding-bottom: 2rem;	
+	color: #F0ECE5;
+}
+
+img{width: 3rem;
+	margin: 1rem;}
+
+
+
+/* Rolling text css start here */
+.sentence{
+	margin-top: 5px;
+	padding-top: 25px;
+  color: #222;
+  font-size: 30px;
+  text-align: left;
+}
+
+.slidingVertical span{
+	animation: topToBottom 15s linear infinite 0s;
+	-ms-animation: topToBottom 15s linear infinite 0s;
+	-webkit-animation: topToBottom 15s linear infinite 0s;
+	color: #00abe9;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.slidingVertical span:nth-child(2){
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+}
+.slidingVertical span:nth-child(3){
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+}
+.slidingVertical span:nth-child(4){
+	animation-delay: 7.5s;
+	-ms-animation-delay: 7.5s;
+	-webkit-animation-delay: 7.5s;
+}
+.slidingVertical span:nth-child(5) {
+	animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+}
+
+.slidingVertical span:nth-child(6) {
+	animation-delay: 12.5s;
+	-ms-animation-delay: 12.5s;
+	-webkit-animation-delay: 12.5s;
+}
+
+/*topToBottom Animation*/
+@-moz-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: translateY(-50px); }
+	10% { opacity: 1; -moz-transform: translateY(0px); }
+	25% { opacity: 1; -moz-transform: translateY(0px); }
+	30% { opacity: 0; -moz-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-webkit-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform: translateY(-50px); }
+	10% { opacity: 1; -webkit-transform: translateY(0px); }
+	25% { opacity: 1; -webkit-transform: translateY(0px); }
+	30% { opacity: 0; -webkit-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes topToBottom{
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: translateY(-50px); }
+	10% { opacity: 1; -ms-transform: translateY(0px); }
+	25% { opacity: 1; -ms-transform: translateY(0px); }
+	30% { opacity: 0; -ms-transform: translateY(50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/* Rolling text css end here */
+  </style>
+</head>
+<!-- head tag end -->
+
+<!-- body tag start -->
+<body>
+  <div>
+      <h2>
+        Hi! I'm
+      </h2>
+  </div>  
+ 
+   <div>
+    <h1>&lcub;"TekRig";&rcub;</h1>
+  </div>
+  
+  <div>
+    <h2 class="sentence slidingVertical"> 
+      <span>Vinuwarthan</span> 
+      <span>Винувартан</span> <span>ヴィヌワルタン</span> 
+      <span>维努瓦坦</span> <span>비누와르탄</span> 
+      <span>فينوورثان</span> 
+    </h2>
+  </div>
+
+  <div>
+    <p>
+      I Design Website and Webapp For You, Please Contact Me!
+    </p>
+  </div>
+
+  <div class="contact_img">
+    <a href="https://wa.me/94781026265"><img src="./Whatsapp.png" alt="Whatsapp"></a>
+    <a href="https://www.facebook.com/tekrig"><img src="./Facebook.png" alt="Facebook"></a>
+    <a href="https://m.me/tekrig"><img src="./Messenger.png" alt="Messenger"></a>
+    <a href="https://www.instagram.com/tekrig.vinu/"><img src="./Instagram.png" alt="Instagram"></a>
+    <a href="https://x.com/tekrig_vinu?t=BEKzCsx7tq-VBOat_vDI2g&s=09"><img src="./Twitter.png" alt="Twitter"></a>
+    <a href="https://www.tiktok.com/@tekrig"><img src="./Tiktok.png" alt="Twitter"></a>
+
+  </div>
+
+</body>
+<!-- body tag end -->
+</html>
